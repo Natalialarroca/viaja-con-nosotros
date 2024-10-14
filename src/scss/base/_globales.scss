@@ -1,0 +1,31 @@
+@use 'variables' as v;
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 62,5%;
+    box-sizing: border-box;
+    scroll-padding-top: 0rem;
+    
+}
+
+body {
+    font-family: v.$fuente_principal;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 16px;
+    color: v.$negro;
+}
+
+.ad {
+    margin-bottom: 20px;
+    text-align: center;
+}
+a {
+    color: $negro;
+   
+}
